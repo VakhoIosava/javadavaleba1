@@ -13,8 +13,8 @@ class Bclass extends Aclass {
         System.out.println("print y: ");
         y = input.nextInt();
     }
-    public void second3(){
-        System.out.println("x+y = "+ (x+y));
+    public int second3(){
+        return x+y;
     }
 }
 

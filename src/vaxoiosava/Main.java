@@ -20,7 +20,7 @@ public class Main {
 
         Bclass p3 = new Bclass();
         p3.first3();
-        p3.second3();
+        System.out.println(p3.second3());
 
     }
 
